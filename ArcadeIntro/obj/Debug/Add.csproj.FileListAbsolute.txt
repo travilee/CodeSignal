@@ -1,0 +1,6 @@
+C:\Users\Student\Documents\Visual Studio 2015\Projects\CodeSignal\src\ArcadeIntro\bin\Debug\ArcadeIntro.exe.config
+C:\Users\Student\Documents\Visual Studio 2015\Projects\CodeSignal\src\ArcadeIntro\bin\Debug\ArcadeIntro.exe
+C:\Users\Student\Documents\Visual Studio 2015\Projects\CodeSignal\src\ArcadeIntro\bin\Debug\ArcadeIntro.pdb
+C:\Users\Student\Documents\Visual Studio 2015\Projects\CodeSignal\src\ArcadeIntro\obj\Debug\Add.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\Visual Studio 2015\Projects\CodeSignal\src\ArcadeIntro\obj\Debug\ArcadeIntro.exe
+C:\Users\Student\Documents\Visual Studio 2015\Projects\CodeSignal\src\ArcadeIntro\obj\Debug\ArcadeIntro.pdb
