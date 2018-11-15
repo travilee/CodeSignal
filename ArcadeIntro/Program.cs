@@ -17,6 +17,7 @@ namespace ArcadeIntro
                 Console.Write("Choose an option from the menu below:\n" +
                 "1) Add two integers\n" +
                 "2) Get century from year\n" +
+                "3) Check for palindrome\n" +
                 "X) Exit" + 
                 "\nYour selection: ");
                 string selection = Console.ReadLine();
@@ -32,6 +33,10 @@ namespace ArcadeIntro
                         Console.WriteLine("Get century from year");
                         Methods.CenturyFromYear();
                         break;
+                    case "3":
+                        Console.WriteLine("Check for palindrome");
+                        Methods.CheckPalindrome();
+                        break;
                     case "x":
                     case "X":
                         Console.WriteLine("Thanks for visiting!\n");
@@ -43,6 +48,6 @@ namespace ArcadeIntro
                 }
             } while (!exit);
 
-        }// end Main()
+        }
     }
 }
