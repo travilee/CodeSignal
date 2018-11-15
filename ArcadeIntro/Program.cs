@@ -14,11 +14,12 @@ namespace ArcadeIntro
 
             do
             {
-                Console.Write("Choose an option from the menu below:\n" +
+                Console.Write("Choose an option from the menu below:\n\n" +
                 "1) Add two integers\n" +
                 "2) Get century from year\n" +
                 "3) Check for palindrome\n" +
-                "X) Exit" + 
+                "4) Find largest product from array of integers\n" +
+                "X) Exit\n" + 
                 "\nYour selection: ");
                 string selection = Console.ReadLine();
                 Console.Clear();
@@ -36,6 +37,10 @@ namespace ArcadeIntro
                     case "3":
                         Console.WriteLine("Check for palindrome");
                         Methods.CheckPalindrome();
+                        break;
+                    case "4":
+                        Console.WriteLine("Find largest product from array of integers");
+                        Methods.AdjacentElementsProduct();
                         break;
                     case "x":
                     case "X":

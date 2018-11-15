@@ -47,6 +47,7 @@ namespace ArcadeIntro
                 if (noSpaces[i] != noSpaces[noSpaces.Length - i - 1])
                 {
                     isPalindrome = false;
+                    break;
                 }
             }
             if (isPalindrome)
@@ -57,6 +58,22 @@ namespace ArcadeIntro
             {
                 Console.WriteLine($"{input} is not a palindrome!\n");
             }
+        }
+
+        public static void AdjacentElementsProduct()
+        {
+            //Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
+            int[] arr1 = { 3, 6, -2, -5, 7, 3 };
+            int max = arr1[0] * arr1[1];
+            for (int i = 0; i < arr1.Length - 1; i++)
+            {
+                if ((arr1[i] * arr1[i + 1]) > max)
+                {
+                    max = arr1[i] * arr1[i + 1];
+                }
+            }
+            Console.WriteLine($"Given the following integer array, the largest product of two adjacent elements is {max}.\n" +
+                "{ 3, 6, -2, -5, 7, 3 }\n");
         }
     }
 }
