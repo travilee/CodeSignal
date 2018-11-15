@@ -19,6 +19,7 @@ namespace ArcadeIntro
                 "2) Get century from year\n" +
                 "3) Check for palindrome\n" +
                 "4) Find largest product from array of integers\n" +
+                "5) Find area of 1-interesting polygon\n" +
                 "X) Exit\n" + 
                 "\nYour selection: ");
                 string selection = Console.ReadLine();
@@ -41,6 +42,10 @@ namespace ArcadeIntro
                     case "4":
                         Console.WriteLine("Find largest product from array of integers");
                         Methods.AdjacentElementsProduct();
+                        break;
+                    case "5":
+                        Console.WriteLine("Find area of 1-interesting polygon");
+                        Methods.ShapeArea();
                         break;
                     case "x":
                     case "X":

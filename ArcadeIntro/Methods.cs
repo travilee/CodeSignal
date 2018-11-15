@@ -75,5 +75,18 @@ namespace ArcadeIntro
             Console.WriteLine($"Given the following integer array, the largest product of two adjacent elements is {max}.\n" +
                 "{ 3, 6, -2, -5, 7, 3 }\n");
         }
+
+        public static void ShapeArea()
+        {
+            //Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
+
+            //A 1 - interesting polygon is just a square with a side of length 1. An n - interesting polygon is obtained by taking the n - 1 - interesting polygon and appending 1 - interesting polygons to its rim, side by side.
+            //for n = 1, the area should be 1; for n = 2, the area should be 5; for n = 3, the calculated area should be 13, etc.
+            Console.WriteLine("An n-interesting polygon is obtained by taking the n-interesting polygon and appending 1-interesting polygons to its rim, side-by-side.\n");
+            Console.Write("Enter an integer: ");
+            int n = int.Parse(Console.ReadLine());
+            int area = (n * n) + ((n - 1) * (n - 1));
+            Console.WriteLine($"An {n:n0}-interesting polygon has an area of {area:n0}.\n");
+        }
     }
 }
