@@ -20,6 +20,7 @@ namespace ArcadeIntro
                 "3) Check for palindrome\n" +
                 "4) Find largest product from array of integers\n" +
                 "5) Find area of 1-interesting polygon\n" +
+                "6) Arrange statues by height" +
                 "X) Exit\n" + 
                 "\nYour selection: ");
                 string selection = Console.ReadLine();
@@ -46,6 +47,10 @@ namespace ArcadeIntro
                     case "5":
                         Console.WriteLine("Find area of 1-interesting polygon");
                         Methods.ShapeArea();
+                        break;
+                    case "6":
+                        Console.WriteLine("Arrange statues by height\n");
+                        Methods.MakeArrayConsecutive2();
                         break;
                     case "x":
                     case "X":

@@ -88,5 +88,13 @@ namespace ArcadeIntro
             int area = (n * n) + ((n - 1) * (n - 1));
             Console.WriteLine($"An {n:n0}-interesting polygon has an area of {area:n0}.\n");
         }
+
+        public static void MakeArrayConsecutive2()
+        {
+            //Ratiorg got statues of different sizes as a present from CodeMaster for his birthday, each statue having an non - negative integer size.Since he likes to make things perfect, he wants to arrange them from smallest to largest so that each statue will be bigger than the previous one exactly by 1.He may need some additional statues to be able to accomplish that.Help him figure out the minimum number of additional statues needed.
+            int[] statues = { 6, 2, 3, 8 };
+            int needed = statues.Max() - statues.Min() - statues.Length + 1;
+            Console.WriteLine($"After arranging the array of statues with sizes [ 6, 2, 3, 8 ] from smallest to largest, you would need {needed} more statues to have one statue of each height.");
+        }
     }
 }
